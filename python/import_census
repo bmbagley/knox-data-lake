@@ -1,0 +1,29 @@
+import boto3
+import io
+import censusdata
+import pandas as pd
+import numpy as np
+import xlrd
+
+
+session = boto3.Session(profile_name='knoxhack')  # set keys in ~/.aws/credentials under profile
+s3 = session.client('s3')
+s3r = session.resource('s3')
+
+knoxdata_bucket_name = 'knox-data-temp-bucket'
+pilot_filename = 'PILOT_summary.xlsx'
+facad_filename = 'facade_grant_recipients.xls'
+
+
+def read_xl_s3(bucket_name, file_name):
+    obj = s3.get_object(Bucket=bucket_name, Key=file_name)
+    data = obj['Body'].read()
+    return pd.read_excel(io.BytesIO(data), encoding='utf-8')
+
+
+# Import Pilot & Facad data
+pilot_df = read_xl_s3(knoxdata_bucket_name, pilot_filename)
+facad_df = read_xl_s3(knoxdata_bucket_name, facad_filename)
+
+# Import 1 year estimates by tract
+censusdata.search('acs1', )

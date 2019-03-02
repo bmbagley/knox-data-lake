@@ -2,6 +2,7 @@ import sys
 import requests
 import logging
 
+logging =
 
 class PageRequester(object):
 

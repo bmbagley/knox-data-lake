@@ -2,20 +2,25 @@ import sys
 import requests
 import logging
 
-logging =
+logger = logging.basicConfig(filename='../logging.conf', level=logging.DEBUG)
 
-class PageRequester(object):
+class PageRequester():
 
-    def __init__(self):
+    def __init__(self, base_url, uri, url_id):
         """"""
-        self.uri = ""
-        self.url = "{0}{1}".format(self.uri, "")
-        # self.credentials = (user_name, password)
+        self.base_url = base_url
+        self.uri = uri
+        self.url_id = url_id
+        self.url = "{0}{1}{2}".format(self.base_url, self.uri, self.url_id)
 
     def simple_request(self):
         try:
-            # req = requests.get(self.url, auth=self.credentials)
-            req = requests.get(self.url)
+            session = requests.Session()
+            session.headers = {'User-agent': 'Mozilla/5.0 Chrome/57.0.2987.110'}
+            session.headers.update({
+                'content-type': 'application/x-www-form-urlencoded'
+            })
+            req = session.post(self.url)
             return req.text
         except RuntimeError as e:
             print(e)

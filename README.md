@@ -1,9 +1,9 @@
 # knox-data-lake
 
-##Problem
+## Problem
 The City of Knoxville is at the beginning stages of their open data initiative. As more datasets become avaiable it would be nice to have a central repository for the data that is open to the public and provides a level of consistency in formatting for the data. These datasets could also be larger and updated more frequently than the currently available data. 
 
-##Solution
+## Solution
 A common pattern seen in private sector businesses is the concept of a data lake. The central component of a data lake is the storage platform. This is typically a cloud object store service. In addition to the storage platform there are small applications that do lightweight processing of the incoming data to change the file format or possibly do transformations of the data. This is usually accomplished with a cloud functions service.
 
 ![Logo](knox_data_lake_arch.png?sanitize=1 "Knox Data Lake Architecture")

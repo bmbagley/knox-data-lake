@@ -17,4 +17,7 @@ Examples:
 
 To address this problem we separate the incoming data into separate object storage buckets with separate credentials. This provides a simple way to scale out the incoming data sources without having to worry about a mistake in permissions causing other users data to be compromised.
 
-# Facade data analysis
+## Facade data analysis
+The data set available for the facade grant is limited in scope and requires the ingestion of multiple other data sources to augment.
+
+ <a href="base64 data" download=".docs/facade_grant_recipients.html">Facade Grant Recipients</a>

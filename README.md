@@ -152,3 +152,59 @@ The data set available for the facade grant is limited in scope and requires the
  | EZ Funds | 1831 McCalla | E. TN Mechanical | Completed (09/02/2010) | 43,868.00 | 0.00 |
 </p>
 </details>
+
+## Pilot data analysis
+The data set available for the Pilot grant is limited in scope and requires the ingestion of multiple other data sources to augment.
+
+<details><summary>pilot_summary.csv</summary>
+<p>
+
+| City of Knoxville PILOT Projects | Term | End Date | Address | Frozen pre-project  City & County Taxes (PILOT) | Post-project  appraised value | Post-project estimated        City Taxes | Post-project estimated County  Taxes | Post-project estimated City & County  Taxes | Projected increase in City & County Taxes |
+|----------------------------------------------------------------------------------------------------------------------|-------|----------|--------------------------|-------------------------------------------------|-------------------------------|------------------------------------------|--------------------------------------|---------------------------------------------|-------------------------------------------|
+| Sterchi Lofts | 10 | 2013 | 116 S. Gay St. | $14,856 | $6,491,200 | $63,972 | $55,045 | $119,017 | $104,161 |
+| Emporium | 11 | 2014 | 100 S. Gay St. | $6,490 | $5,118,100 | $50,440 | $43,401 | $93,841 | $87,351 |
+| 17 Market Square Upper | 10 | 2014 | 17 Market Sq. | $10,650 | $2,639,900 | $26,017 | $22,386 | $48,403 | $37,753 |
+| 17 Market Square Lower | 10 | 2014 | 17 Market Sq. | $10,650 | $2,277,400 | $22,444 | $19,312 | $41,757 | $31,107 |
+| One Centre Square | 11 | 2014 | 605 S. Gay St. | $176,633 | $12,671,300 | $124,878 | $107,453 | $232,331 | $55,698 |
+| Hampton Inn | 9 | 2015 | 618 Main St. | $14,880 | $8,034,200 | $79,179 | $68,130 | $147,309 | $132,429 |
+| 16,18,20,22 Market Square | 10 | 2015 | 16,18,20,22 Market Sq. | $11,728 | $3,061,300 | $30,170 | $25,960 | $56,130 | $44,402 |
+| Hilton Garden Inn | 5 | 2017 | 1706 Cumberland Ave. | $40,542 | $7,510,600 | $74,018 | $63,690 | $137,708 | $97,166 |
+|  |  |  |  |  |  |  |  |  |  |
+| 36 Market Square | 10 | 2021 | 36 Market Sq. | $5,772 | $1,569,900 | $15,472 | $13,313 | $28,784 | $23,012 |
+| Minvilla Manor | 20 | 2029 | 447 N. Broadway | $1,584 | $3,064,300 | $30,199 | $25,985 | $56,185 | $54,601 |
+| Tennessee Armature | 15 | 2025 | 103 S. Gay St. | $17,441 | $5,052,100 | $49,789 | $42,842 | $92,631 | $75,190 |
+| Medical Arts Building | 10 | 2025 | 603 Main St. | $43,523 | $9,302,800 | $91,681 | $78,888 | $170,569 | $127,046 |
+| Tailor Lofts | 15 | 2029 | 430 S. Gay St. | $6,151 | $1,791,000 | $17,651 | $15,188 | $32,838 | $26,687 |
+| White Lily | 15 | 2029 | 222 N. Central St. | $2,345 | $4,326,100 | $42,635 | $36,685 | $79,320 | $76,975 |
+| Evolve | 5 | 2019 | 2006 Cumberland Ave. | $49,399 | $11,916,200 | $117,437 | $101,049 | $218,486 | $169,087 |
+| Depot Development | 12 | 2026 | 303 N. Central St. | $9,219 | $3,892,500 | $38,361 | $33,008 | $71,370 | $62,151 |
+| Guyot Properties (Balter Brewing) | 12 | 2027 | 100 S. Broadway | $8,411 | $1,162,700 | $11,459 | $9,860 | $21,318 | $12,907 |
+| The Daniel | 12 | 2027 | 118 W. Jackson Ave. | $10,224 | $9,731,800 | $95,909 | $82,526 | $178,434 | $168,210 |
+| Jackson Terminal | 12 | 2027 | 205 W. Jackson Ave. | $9,017 | $2,320,600 | $22,870 | $19,679 | $42,549 | $33,532 |
+| Holston Oak Apartments | 16 | 2032 | 1817 Riverside Dr. | $65,094 | $12,791,200 | $126,060 | $108,469 | $234,529 | $169,435 |
+| Arbor Place Apartments | 15 | 2030 | 2727 Arbor Pl. | $72,782 | $16,937,100 | $166,919 | $143,627 | $310,545 | $237,763 |
+| Patricia Nash | 12 | 2027 | 1132 N. Sixth Ave. | $2,024 | $135,800 | $1,338 | $1,152 | $2,490 | $466 |
+| Stonewall Lofts | 15 | 2030 | 5022 Chapman Hwy. | $20,234 | $3,099,400 | $30,545 | $26,283 | $56,828 | $36,594 |
+| Southland Square | 15 | 2030 | 3423 Sevier Ave. | $45,096 | $5,962,400 | $58,761 | $50,561 | $109,322 | $64,226 |
+| The Tennessean | 12 | 2027 | 0 Henley St. | $29,343 | $9,512,700 | $93,750 | $80,668 | $174,417 | $145,074 |
+| Brookvale | 5 | 2021 | 6016 Brookvale Ln. | $42,000 | $7,279,700 | $71,743 | $61,732 | $133,475 | $91,475 |
+| The Standard | 7 | 2021 | 705 S. Seventeenth St. | $32,374 | $39,601,631 | $390,282 | $335,822 | $726,104 | $693,730 |
+| Farragut Hotel | 25 | 2041 | 530 S. Gay St. | $72,189 | $13,248,400 | $130,566 | $112,346 | $242,912 | $170,723 |
+| The Cumberland | 15 | 2031 | 1830 Cumberland Ave. | $75,496 | $17,836,400 | $175,781 | $151,253 | $327,034 | $251,538 |
+| Efficient Electric | 18 | 2035 | 1150 McCalla Ave. | $3,943 | $2,373,000 | $23,386 | $20,123 | $43,509 | $39,566 |
+| Keener Lofts | 12 | 2029 | 701 Worlds Fair Park Dr. | $7,900 | $2,000,000 | $19,710 | $16,960 | $36,670 | $28,770 |
+| Stockyard Lofts | 12 | 2029 | 115 Willow Ave. | $37,600 | $28,404,820 | $279,935 | $240,873 | $520,808 | $483,208 |
+| Tyson/Jennings Development | 13 | 2030 | 200 Jennings Ave. | $1,307 | $4,760,000 | $46,911 | $40,365 | $87,276 | $85,969 |
+| Embassy Suites | 15 | 2033 | 505 S. Gay St. | $131,117 | $27,500,000 | $271,018 | $233,200 | $504,218 | $373,101 |
+| Fort Hill Tier 3 Data Center | 5 | 2022 | 550 Fort Summit Way | $24,300 | $24,000,000 | $236,525 | $203,520 | $440,045 | $415,745 |
+| TOTAL |  |  |  | $1,112,314 | $317,376,551 | $3,127,809 | $2,691,353 | $5,819,163 | $4,706,849 |
+| Notes: |  |  |  |  |  |  |  |  |  |
+| The PILOT term for projects in italics has ended. |  |  |  |  |  |  |  |  |  |
+| * The project is still in the approval process, i.e. 3rd party review, City Council approval, and City IDB approval. |  |  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |  |
+| Residential Assessment | 25% |  |  |  |  |  |  |  |  |
+| Commercial Assessment | 40% |  |  |  |  |  |  |  |  |
+| City taxes | 2.46% |  |  |  |  |  |  |  |  |
+| County taxes | 2.12% |  |  |  |  |  |  |  |  |
+</p>
+</details>

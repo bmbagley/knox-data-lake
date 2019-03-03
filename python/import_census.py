@@ -66,7 +66,7 @@ for i in list(range(2010, 2018)):
     write_csv_s3(c_ratio, knoxdata_bucket_name, write_filename_raw)
 
 # Tenure
-for i in list(range(2010, 2011)):
+for i in list(range(2010, 2018)):
     temp = censusdata.censustable('acs5', i, 'B25003')
     temp_vars = [i for i in temp]
     temp_names = [k['label'].replace('!!', '_').replace(' ', '_').replace(':', '').lower() for i, k in temp.items()]
@@ -74,11 +74,24 @@ for i in list(range(2010, 2011)):
                                   censusdata.censusgeo([('state', '47'), ('county', '093'), ('tract', '*')]),
                                   temp_vars)
     tenure = c_ratio.copy()
-    tenure.columns = temp_names.lower()
-    tenure = tenure.drop(columns=[col for col in tenure.columns.tolist() if 'Error' in col])
+    tenure.columns = temp_names
+    tenure = tenure.drop(columns=[col for col in tenure.columns.tolist() if 'error' in col])
     for calc in tenure.columns.tolist()[1:]:
         bina = (tenure[calc] / tenure[tenure.columns.tolist()[0]])*100
-        tenure[calc + '_percentage'] = bina
+        tenure[calc + '_percentage'] = round(bina, 2)
+    tenure['census_tract'] = [(str(tenure.index[i]).split(',')[0].split(' ')[-1]) for i in list(range(len(tenure.index)))]
+    acs_name = 'tenure'
+    write_filename_summary = '{}/{}/{}/acs5_{}_summary_{}.csv'.format(
+        'knox-data-census', 'acs5',
+        acs_name, acs_name, i)
+    write_filename_raw = '{}/{}/{}/acs5_{}_raw_{}.csv'.format(
+        'knox-data-census', 'acs5',
+        acs_name, acs_name, i)
+    print(write_filename_summary)
+    print(write_filename_raw)
+print(tenure.head())
+
+#
 
 
 

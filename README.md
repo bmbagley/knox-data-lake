@@ -17,4 +17,6 @@ Examples:
 
 To address this problem we separate the incoming data into separate object storage buckets with separate credentials. This provides a simple way to scale out the incoming data sources without having to worry about a mistake in permissions causing other users data to be compromised.
 
+![Logo](knox-data-lake-sources.png?sanitize=1 "Knox Data Lake Sources")
+
 # Facade data analysis

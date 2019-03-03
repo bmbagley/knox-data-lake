@@ -1,4 +1,5 @@
 # knox-data-lake
+2019 Knoxville Hackathon Team
 
 ## Problem
 The City of Knoxville is at the beginning stages of their open data initiative. As more datasets become avaiable it would be nice to have a central repository for the data that is open to the public and provides a level of consistency in formatting for the data. These datasets could also be larger and updated more frequently than the currently available data. 

@@ -22,6 +22,7 @@ The data set available for the facade grant is limited in scope and requires the
 
 <details><summary>facade_grant_recipients.csv</summary>
 <p>
+
  | FUND SOURCE | ADDRESS | BUSINESS | STATUS | FAĂADE PROGRAM AMOUNT | FUNDS AVAILABLE |
  |--------------------------|----------------------------------|------------------------------|------------------------|-----------------------|-----------------|
  | General Funds | 1200/1210 N Central | Knoxvill Preservation | Completed (01/05/2009) | 78,246.00 | 521,754.00 |
